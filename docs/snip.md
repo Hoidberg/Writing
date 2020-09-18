@@ -9,5 +9,5 @@ for first, last in utf8.graphemes(test) do
 	table.insert(t, last, string.upper(graphemes))
 end
 
-table.concat(t, " ")
+print(table.concat(t, " "))
 ```
