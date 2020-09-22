@@ -17,12 +17,12 @@ print(table.concat(t, " "))
 <p>Luckometer</p>
 
 ```lua
-	while wait(0.5) do
-		local chance = math.random()
-		if math.floor(chance) == 1 then
-			print("lucky")
-		else
-			print("unlucky")
-		end
+while wait(0.5) do
+	local chance = math.random()
+	if math.floor(chance) == 1 then
+		print("lucky")
+	else
+		print("unlucky")
 	end
+end
 ```
