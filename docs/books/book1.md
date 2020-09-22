@@ -1,7 +1,7 @@
 <h1 align="center">Snippets</h1>
 
 <p>Line Spacer</p>
-```lua
+```
 	local s = "the quick fox jumps over the lazy dog"
 	local t = {}
 
@@ -14,7 +14,7 @@
 ```
 
 <p>Luckometer</p>
-```lua
+```
 	while wait(0.5) do
 		local chance = math.random()
 		if math.floor(chance) == 1 then
